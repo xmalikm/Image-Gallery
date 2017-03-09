@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- favicony -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/../files/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/../files/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/../files/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/../files/favicons/manifest.json">
+		<link rel="mask-icon" href="/../files/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/../files/favicons/favicon.ico">
+		<meta name="msapplication-config" content="/about/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Bootstrap js -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- css projektu -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- js projektu -->
+		<script src="gallery.js"></script>
+	</head>
+	<body>
+		<!-- kontajner - header stranky, obsahuje background image -->
+		<div class="container-fluid container-header">
+			<!-- titulok stranky -->
+	        <div class="header-content">
+	        	<a href="http://malikweb.sk/image-gallery"><img src="/../files/logos/m&m(white-blue).png"></a>
+	            <h1>MalikWeb Image Gallery</h1>
+	        </div>
+		</div>
+
+		<section id="img-content">
+			<!-- wrapper, v ktorom je vzdy apendnuty prave zobrazovany obrazok spolu s navigacnymi sipkami -->
+			<div id="cover_div">
+				<div id="image_form">
+					<!-- <img class="arrows" id="prev" src="images/icons/prev.png" alt = "prev"> -->
+					<span id="prev" class="arrows glyphicon glyphicon-arrow-left"></span>
+					<!-- <img class="arrows" id="next" src="images/icons/next.png" alt = "next"> -->
+					<span id="next" class="arrows glyphicon glyphicon-arrow-right"></span>
+					<!-- <img id="close" src="images/icons/zavri.png" alt="zavri"> -->
+					<span id="close" class="glyphicon glyphicon-remove"></span>
+				</div>
+			</div>
+			
+			<!-- kontajner s obrazkami -->
+			<div class="container gallery-container">
+				<!-- zoznam obrazkov -->
+				<ul id="img-list">
+
+					<div class="row">
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="img-responsive" data-index = "0" src="https://c1.staticflickr.com/4/3204/3055849607_ccbea16b1e_b.jpg" alt = "nature"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="img-responsive" data-index = "1" src="https://c1.staticflickr.com/2/1657/25852370824_8925bacbc6_b.jpg" alt = "city view"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="img-responsive" data-index = "2" src="http://maxpixel.freegreatpicture.com/static/photo/1x/Rock-Evening-Nature-Landscape-Rocks-Canyon-River-1740973.jpg" alt = "forest"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="img-responsive" data-index = "3" src="https://motherboard-images.vice.com/content-images/contentimage/19648/1425590545864892.jpg" alt = "world map"></a>
+							</li>
+						</div>
+					</div><!-- row -->
+
+					<div class="row">
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "4" src="http://natgeo.nikkeibp.co.jp/nng/article/20140205/382634/04.jpg" alt = "mountain"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "5" src="https://c1.staticflickr.com/8/7359/9162205687_b63061be9b_b.jpg" alt = "sunset"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "6" src="https://c1.staticflickr.com/3/2445/3804332383_6c3919379e_b.jpg" alt = "bee"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "7" src="https://c1.staticflickr.com/2/1187/3173771855_397db555dc_b.jpg" alt = "sea bench"></a>
+							</li>
+						</div>
+					</div><!-- row -->
+
+					<div class="row">
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "8" src="http://maxpixel.freegreatpicture.com/static/photo/1x/College-Football-American-Football-Players-Alabama-557565.jpg" alt = "fotball players"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "9" src="http://maxpixel.freegreatpicture.com/static/photo/1x/Healthy-Food-Food-Dietetic-Jar-Of-Pasta-Power-1348430.jpg" alt = "food"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "10" src="https://c1.staticflickr.com/3/2864/12264410356_0144bb9762_b.jpg" alt = "night sky"></a>
+							</li>
+						</div>
+						<div class="col-sm-3">
+							<li>
+								<a href="#"><img class="" data-index = "11" src="http://maxpixel.freegreatpicture.com/static/photo/1x/Dog-Animal-Portrait-Puppy-Snout-Weimaraner-1381186.jpg" alt = "dog"></a>
+							</li>
+						</div>
+					</div><!-- row -->
+
+				</ul><!-- zoznam obrazkov -->
+			</div><!-- kontajner s obrazkami -->
+		</section>
+
+		<footer>
+			<!-- footer kontajner -->
+			<div class="container container-footer">
+
+				<!-- info o mne :) -->
+				<div class="col-sm-6 text-center about" >
+					<h3 class="footer-title ">O autorovi</h3>
+
+					<!-- foto -->
+					<img class="about-image" src="/../files/martin.jpg">
+					<!-- nieco o mne -->
+					<p class="about-text">
+						Volám sa Martin Malík a mám 23 rokov. Programovaniu stránok sa venujem zhruba 2 roky.
+						Prioritne programujem backend ale viem spraviť aj frontend aplikácie.
+						Študujem aplikovanú informatiku na FEI STU v Bratislave.
+					</p><!-- info o mne :) -->
+				</div>
+
+				<!-- kontakt -->
+				<div class="col-sm-6 contact">
+
+					<h3 class="footer-title ">Kontakt</h3>
+					<!-- email -->
+					<p>
+						<span class="glyphicon glyphicon-envelope"></span>&nbsp <a href="mailto:xmalikm3@gmail.com">xmalikm3@gmail.com</a>
+					</p>
+					
+					<!-- tel cislo -->
+					<p>
+						<span class="glyphicon glyphicon-earphone"></span>&nbsp <span itemprop="telephone"><a href="tel:+421915057615">+421 915 057 615</a></span>
+					</p>
+					<!-- web stranka -->
+					<p>
+						<span class="glyphicon glyphicon-globe"></span>&nbsp <span><a href="http://malikweb.sk" target="_blank">www.malikweb.sk</a></span>
+					</p>
+					<hr>
+					
+					<!-- linky na socialne siete -->
+					<h4>Najdete nas aj na socialnych sietach</h4>
+					<p class="social-media">
+						<!-- fb -->
+						<a href="https://www.facebook.com/martin.malik.14?ref=bookmarks" title="Martin Malík Facebook" target="_blank">
+							<img src="/../files/icons/facebook-icon.png" class = "icon">
+						</a>
+						<!-- g+ -->
+						<a href="https://plus.google.com/u/0/104749510764663008968" title="Martin Malík Google+" target="_blank">
+							<img src="/../files/icons/google-icon.png" class = "icon">
+						</a>
+					</p><!-- linky na socialne siete -->
+					
+				</div><!-- kontakt -->
+
+			</div><!-- footer kontajner -->
+
+			<!-- dodatocne footer info -->
+			<div class="row text-center copyright">
+				<div class="col-sm-6">
+					<img src="/../files/logos/malik_sites.png">
+				</div>
+				<div class="col-sm-6">
+					<span>Copyright © malikweb.sk, 2017 </span>
+				</div>
+			</div><!-- dodatocne footer info -->
+
+		</footer>
+	</body>
+</html>
